@@ -1,4 +1,4 @@
-const API_URL = 'https://api.quantumroyal.com/';
+const API_URL = 'https://api.quantumroyal.com/api';
 
 export async function login(email: string, password: string) {
   const response = await fetch(`${API_URL}/login`, {
